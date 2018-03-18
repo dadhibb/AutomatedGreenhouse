@@ -3,7 +3,7 @@ Automated greenhouse project
 Hello,
 I'm looking for anyone who has successfully made a simple greenhouse automation system using an Arduino Mega 2560.
 I'm leaning towards an off-grid system because I don't want to have to connect it to the house.
-I have various bints 'n bobs lying around:
+I have various bits 'n bobs lying around:
 - Arduino Mega 2560
 - LM-393 & sensors, I was thinking I'd need 5 in total
 - 4-relay board for : (1) Aquarium pump for watering system (2) Heater (3) Fan (4) Light / spare
