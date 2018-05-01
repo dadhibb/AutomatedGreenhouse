@@ -1,16 +1,9 @@
 # AutomatedGreenhouse
 Automated greenhouse project
-Hello,
-I'm looking for anyone who has successfully made a simple greenhouse automation system using an Arduino Mega 2560.
-I'm leaning towards an off-grid system because I don't want to have to connect it to the house.
-I have various bits 'n bobs lying around:
-- Arduino Mega 2560
-- LM-393 & sensors, I was thinking I'd need 5 in total
-- 4-relay board for : (1) Aquarium pump for watering system (2) Heater (3) Fan (4) Light / spare
-- Wemos board, Huzzah feather, various ESP8266s (I'd like to connect to my Thingspeak channel)
-- Blynk account & smartphone App
-Things I don't yet have:
-12v 80Ah boat battery, solar panel, charge controller
-Nice clean code that will monitor temperature, humidity, soil moisture and initiate the right actions (turn on heater / open window & start fan ; turn on/off watering system according to LM-393 values) etc.
-I guess this must be out there somewhere...
-Cheers!
+The sktech here uses 2 different sensors:
+1 - A DHT22 combined Temperature and Humidity sensor using SimpleDHT library from https://github.com/winlinvip/SimpleDHT 
+2 - A LM-393 soil humidity sensor
+I'm using a 4-relay board to turn things off and on according to the data
+This code works As Is, help yourself
+
+The idea longer term is to add an ESP8266 to send thet data to my Thingspeak channel and probably make a nice HMI with Blynk
